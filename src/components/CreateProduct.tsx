@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { api } from '../services/api';
-import type { Product } from '../services/api';
 
 export const CreateProduct = () => {
   const [formData, setFormData] = useState({
